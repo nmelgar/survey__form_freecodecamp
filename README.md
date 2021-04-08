@@ -5,4 +5,4 @@ The project was also created as image on Figma by me. https://www.figma.com/file
 Here's the codepen of the project https://codepen.io/nmelgar/pen/KKayWRY (here, the dropdown lists doesn't work, not sure why, but they work on the project)<br>
 <br>
 <br>
-https://raw.githubusercontent.com/nmelgar/survey__form_freecodecamp/main/figma_survey_form.png
+![figma_survey_form](https://raw.githubusercontent.com/nmelgar/survey__form_freecodecamp/main/figma_survey_form.png)
