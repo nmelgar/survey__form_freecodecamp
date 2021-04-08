@@ -1,0 +1,136 @@
+/*
+  FONTS
+  Variables
+  General
+  Header
+  Main
+  Images
+  footer
+  Media Queries
+  Notes
+*/
+/*--------->FONTS<-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400&display=swap');
+
+/*--------->Variables<-----------*/
+:root {
+  --darkest-blue: #06224A;
+  --dark-blue: #0245A3;
+  --sky-blue: #8FBAF3;
+  --light-blue: #BDF1F6;
+  --white: #FFFFFF;
+}
+
+/*--------->General Styles<-----------*/
+body {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  background: var(--dark-blue);
+  padding: 10px;
+}
+
+#main {
+  background: var(--white);
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  color: var(--darkest-blue);
+  margin: 0 auto;
+  /*Max width for the main container*/
+  max-width: 768px;
+  text-align: center;
+}
+
+h1 {}
+
+h2 {}
+
+/*--------->HEADER<-----------*/
+header {
+  background: var(--darkest-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 20px;
+}
+
+/*--------->Main<-----------*/
+form {
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  text-align: left;
+}
+
+label {
+  line-height: 1.5em;
+}
+
+input[type=text] {
+  height: 3em;
+  width: 100%;
+}
+
+input[type=text]:focus {
+  outline: 1px solid var(--dark-blue);
+}
+
+input[type=email] {
+  height: 3em;
+  width: 100%;
+}
+
+input[type=email]:focus {
+  outline: 1px solid var(--dark-blue);
+}
+
+input[type=number] {
+  height: 3em;
+  width: 100%;
+}
+
+input[type=number]:focus {
+  outline: 1px solid var(--dark-blue);
+}
+
+button {
+  height: 3em;
+  margin: auto 0;
+  width: 100%;
+  background: var(--darkest-blue);
+  color: var(--white);
+  font-size: 1em;
+}
+
+#current-role {
+  width: 100%;
+  height: 3em;
+}
+
+#favorite-feature {
+  width: 100%;
+  height: 3em;
+}
+
+textarea {
+  height: 4em;
+  resize: none;
+  width: 100%;
+}
+
+/*--------->Footer<-----------*/
+/*--------->Media Queries<-----------*/
+/*--------->NOTES<-----------*/
+/*
+- Para centrar algo horizontalmente en navegadores modernos, usa display:
+ flex; justify-content: center;
+
+- Sin embargo, en navegadores antiguos como IE8-9, flexbox no está disponible.
+Para poder centrar un elemento horizontalmente con respecto a su contenedor,
+usa margin: 0 auto;
+
+*/
